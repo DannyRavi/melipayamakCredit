@@ -45,7 +45,8 @@ then config `prometheus.yaml`
 
 
 the metrics name are:
-`melliPayamak_get_credit_result_IT`` -> for credit SMS 
+
+`melliPayamak_get_credit_result_IT` -> for credit SMS 
 
 and
 
@@ -55,3 +56,12 @@ and
 then added prometheus to grafana dataSource and create dashboard and alert like:
 
 ![image](./img/grafanaDashboard.png)
+
+
+### docker run
+
+```sh
+docker run --rm  --env-file .env   -p 8285:8285   dannyravi/mellipayamak-exporter:0.0.1
+```
+
+#### remember user and password must be correct in .env file!!
