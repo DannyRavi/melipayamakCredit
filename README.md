@@ -65,3 +65,14 @@ docker run --rm  --env-file .env   -p 8285:8285   dannyravi/mellipayamak-exporte
 ```
 
 #### remember user and password must be correct in .env file!!
+
+
+### next step
+
+- [ ] alertmanager
+- [ ] custom user
+- [ ] add docker-compose for fire and forgot mechanism
+- [ ] add grafana dynamic dashboard
+- [ ] add remote control 
+- [ ] design concurrent controller
+- [ ] robost code
